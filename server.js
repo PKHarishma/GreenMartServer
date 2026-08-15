@@ -16,7 +16,8 @@ await connectCloudinary();
 const allowedOrigins = [
     'http://localhost:5173',
     'http://localhost:5174',
-    'http://localhost:5175'
+    'http://localhost:5175',
+    'https://greenmartclient.vercel.app',
 ];
 const port=process.env.PORT||4000;
 const app=express();
